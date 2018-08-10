@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        //添加下面这句
+        classpath 'com.novoda:bintray-release:0.8.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    userOrg = 'yx544806988' //# 用户名
+    repoName = "StatusBarCompat" //# 仓库名
+    groupId = 'org.greenleaf.utils' //# groupId
+    desc = 'useful tool for android' //# 描述
+    website = 'https://github.com/yx544806988/StatusBarCompat.git' //# 地址 ， 填写真实可访问地址
+    licences = ['Apache-2.0']
+}
