@@ -10,10 +10,10 @@ android 状态栏工具
 - compile 'com.flyboy:statusbar:1.0.1'
 
 
-###设置状态栏为透明
+##设置状态栏为透明
 - StatusBarCompat.translucentStatusBar(this, true);
 
-###设置状态栏背景色
+##设置状态栏背景色
 - StatusBarCompat.setStatusBarColor(this, Color.RED, 80);
 
 - StatusBarCompat.setStatusBarColor(this, Color.parseColor("#FF0000"));
