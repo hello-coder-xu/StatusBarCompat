@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
 
     buildTypes {
@@ -31,9 +31,9 @@ dependencies {
 
 
 publish {
-    artifactId = 'android status bar tools'
+    artifactId = 'statusbar'
     uploadName = 'StatusBarCompat'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     userOrg = rootProject.userOrg
     groupId = rootProject.groupId
     desc = rootProject.desc

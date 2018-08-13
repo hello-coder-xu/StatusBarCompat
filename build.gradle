@@ -2,6 +2,7 @@
 
 buildscript {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -14,6 +15,7 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -24,9 +26,9 @@ task clean(type: Delete) {
 }
 
 ext {
-    userOrg = 'yx544806988' //# 用户名
-    repoName = "StatusBarCompat" //# 仓库名
-    groupId = 'org.greenleaf.utils' //# groupId
+    userOrg = 'flyboy' //# bintray用户名
+    repoName = "maven" //# bintray仓库名
+    groupId = 'com.flyboy' //# bintray groupId
     desc = 'useful tool for android' //# 描述
     website = 'https://github.com/yx544806988/StatusBarCompat.git' //# 地址 ， 填写真实可访问地址
     licences = ['Apache-2.0']
