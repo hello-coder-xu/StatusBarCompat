@@ -28,7 +28,7 @@ task clean(type: Delete) {
 ext {
     userOrg = 'flyboy' //# bintray用户名
     repoName = "maven" //# bintray仓库名
-    groupId = 'com.flyboy' //# bintray groupId
+    groupId = 'com.flyboy.tool' //# bintray groupId
     desc = 'useful tool for android' //# 描述
     website = 'https://github.com/yx544806988/StatusBarCompat.git' //# 地址 ， 填写真实可访问地址
     licences = ['Apache-2.0']

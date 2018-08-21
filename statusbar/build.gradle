@@ -33,7 +33,7 @@ dependencies {
 publish {
     artifactId = 'statusbar'
     uploadName = 'StatusBarCompat'
-    publishVersion = '1.0.1'
+    publishVersion = '1.0.0'
     userOrg = rootProject.userOrg
     groupId = rootProject.groupId
     desc = rootProject.desc

@@ -24,6 +24,4 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 
     implementation project(':statusbar')
-
-//    api 'com.flyboy:statusbar:1.0.1'
 }
