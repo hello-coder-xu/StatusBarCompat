@@ -7,7 +7,7 @@ android 状态栏工具
 
 
 使用
-- compile 'com.flyboy:statusbar:1.0.1'
+
 
 
 ##设置状态栏为透明
