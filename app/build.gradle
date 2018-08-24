@@ -23,5 +23,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 
+//    compile 'com.flyboy.tool:statusbar:1.0.0'
+
     implementation project(':statusbar')
 }
